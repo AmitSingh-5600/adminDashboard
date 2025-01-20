@@ -1,0 +1,28 @@
+td,
+th {
+  border: none !important;
+}
+
+thead th {
+  font-weight: bold !important;
+  font-size: 14px !important;
+}
+
+.table-details {
+  color: lightskyblue !important;
+}
+
+.status {
+  padding: 5px !important;
+  border-radius: 8%;
+  display: flex;
+  width: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .table {
+    display: block;
+  }
+}

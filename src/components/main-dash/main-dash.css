@@ -1,0 +1,26 @@
+.main-dash {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.main-dash h1 span {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-dash {
+    justify-content: start;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .main-dash h1 span {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .margin {
+    margin-left: 60%;
+  }
+}

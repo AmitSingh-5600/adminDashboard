@@ -1,0 +1,38 @@
+.updates {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: aliceblue;
+  border-radius: 0.7rem;
+  width: 88%;
+}
+
+.update {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0px 10px 0px;
+}
+
+.updates img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.user-details {
+  margin-top: 0px;
+}
+
+.user-details > p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.user-details > p > span {
+  font-weight: bold;
+}
+
+.user-details > span {
+  font-size: small;
+  color: grey;
+}
